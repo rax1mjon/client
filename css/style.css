@@ -277,9 +277,10 @@ footer {
         display: none;
         flex-direction: column;
         align-items: center;
+        width: 100%;
     }
 
-    .active {
+    .activeh {
         display: flex;
     }
 
