@@ -1,10 +1,10 @@
-// const loading = document.getElementById("loading");
+const loading = document.getElementById("loading");
 
-// const loadingDuration = 10000;
+const loadingDuration = 5000;
 
-// setTimeout(() => {
-//     loading.classList.add("loading-none");
-// }, loadingDuration);
+setTimeout(() => {
+    loading.classList.add("loading-none");
+}, loadingDuration);
 
 
 // window.addEventListener("scroll", function () {
@@ -41,19 +41,19 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 
-// indow.addEventListener("scroll", function () {
-//     toggleBacktop();
-// });
+indow.addEventListener("scroll", function () {
+    toggleBacktop();
+});
 
-// let backtop = document.getElementById("backtop");
+let backtop = document.getElementById("backtop");
 
-// function toggleBacktop() {
-//     if (
-//         document.body.scrollTop > 150 ||
-//         document.documentElement.scrollTop > 150
-//     ) {
-//         backtop.classList.add('backtop-show')
-//     } else {
-//         backtop.classList.remove('backtop-show')
-//     }
-// }
+function toggleBacktop() {
+    if (
+        document.body.scrollTop > 150 ||
+        document.documentElement.scrollTop > 150
+    ) {
+        backtop.classList.add('backtop-show')
+    } else {
+        backtop.classList.remove('backtop-show')
+    }
+}
