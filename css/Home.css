@@ -103,7 +103,151 @@
 
 .hero--line {
     display: inline-block;
-    width: calc( 100% - 420px);
+    width: calc(100% - 420px);
     border: 1px solid var(--o-border);
     backdrop-filter: blur(30px);
+}
+
+/* About  */
+
+#about {
+    background-color: var(--bg-white);
+    padding: 96px 0 64px;
+}
+
+.about--wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}
+
+.about--top {
+    display: flex;
+    gap: 96px;
+    align-items: center;
+}
+
+
+.about--top__main {
+    position: relative;
+    width: 608px;
+    margin-left: 97px;
+}
+
+.about--top__main::before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: -96px;
+    display: inline-block;
+    width: 72px;
+    height: 0;
+    border: 2px solid var(--pri-text);
+
+}
+
+.about--small__title {
+    color: var(--pri-text);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18.75px;
+    letter-spacing: 2px;
+}
+
+.about--big__title {
+    margin: 32px 0;
+    color: var(--pri-text);
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 57.6px;
+    text-align: left;
+}
+
+.about--text {
+    color: var(--sec-text);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.6px;
+    margin-bottom: 48px;
+}
+
+.about--link {
+    display: inline-block;
+    border-radius: 4px;
+    padding: 16px 32px;
+    background-color: var(--gree-pri);
+    backdrop-filter: blur(80px);
+    color: var(--bg-white);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.75px;
+}
+
+.about--videos {
+    position: relative;
+}
+
+.about--videos svg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.about--videos svg path {
+    transition: all 0.5s;
+}
+
+.about--videos g path {
+    fill: var(--bg-white);
+}
+
+.about--videos svg path:nth-child(2) {
+    fill: var(--pri-text);
+}
+
+.about--videos:hover g path {
+    fill: var(--pri-text);
+}
+
+.about--videos:hover svg path:nth-child(2) {
+    fill: var(--bg-white);
+}
+
+.about--bottom {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.about--supporters {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    width: 100%;
+}
+
+.about--sup__text {
+    color: var(--pri-text);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.75px;
+    letter-spacing: 2px;
+}
+
+.about--sup__line {
+    display: inline-block;
+    width: calc(100% - 186px );
+    border: 1px solid var(--o-border) ;
+}
+
+.about--logoipsums {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: calc(100% - (197.6px * 6));
+}
+
+.about--logoipsums svg {
+    fill: var(--pri-text);
 }

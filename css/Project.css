@@ -1,2 +1,17 @@
 @import url("./style.css");
 @import url("../fonts/fonts.css");
+
+:root {
+    --pri-text: #1d2130;
+    --sec-text: #525560;
+    --black-06: #0b0706;
+    --gree-pri: #70c174;
+    --o-border: #e5e5e5;
+    --bg-grass: #f2f6ef;
+    --gree-sec: #bef3c0;
+    --gree-try: #eff7f2;
+    --of-white: #ebf0f9;
+    --bg-white: #fff;
+    --bg-23253: #232536;
+    --bg-opcty: #ebf0f94d;
+}
