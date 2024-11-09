@@ -41,19 +41,17 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 
-indow.addEventListener("scroll", function () {
-    toggleBacktop();
-});
 
-let backtop = document.getElementById("backtop");
+const backToTopButton = document.getElementById("backtop");
 
-function toggleBacktop() {
-    if (
-        document.body.scrollTop > 150 ||
-        document.documentElement.scrollTop > 150
-    ) {
-        backtop.classList.add('backtop-show')
+window.onscroll = function () {
+    scrollFunction();
+};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 150 || document.documentElement.scrollTop > 150) {
+        backToTopButton.style.display = "block"; 
     } else {
-        backtop.classList.remove('backtop-show')
+        backToTopButton.style.display = "none"; 
     }
 }
