@@ -478,6 +478,7 @@ footer {
     font-weight: 700;
     line-height: 18.75px;
     letter-spacing: 2px;
+    text-transform: uppercase;
 }
 
 .small__title::before {
@@ -565,6 +566,50 @@ footer {
     font-weight: 500;
     line-height: 18.75px;
 }
+
+
+/* support  */
+
+.about--bottom {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    width: 100%;
+}
+
+.about--supporters {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    width: 100%;
+}
+
+.about--sup__text {
+    color: var(--pri-text);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.75px;
+    letter-spacing: 2px;
+}
+
+.about--sup__line {
+    display: inline-block;
+    width: calc(100% - 186px);
+    border: 1px solid var(--o-border);
+}
+
+.about--logoipsums {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: calc(100% - (197.6px * 6));
+}
+
+.about--logoipsums svg {
+    fill: var(--pri-text);
+}
+
 
 
 /* loading  */
