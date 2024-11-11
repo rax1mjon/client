@@ -67,6 +67,7 @@
 .inver--cards {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     width: 100%;
     gap: 48px 64px;
 }
@@ -133,3 +134,41 @@
     font-weight: 700;
     line-height: 57.6px;
 }
+
+/* media */
+
+
+@media (max-width:1130px) {
+    .hero--wrapper {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .hero--main {
+        margin: 0;
+    }
+
+    .project--cards {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media (max-width:437px) {
+    .hero--main__title {
+        font-size: 46px;
+        line-height: 57.2px;
+    }
+
+    .inver--title {
+        font-size: 38px;
+        line-height: 47.6px;
+    }
+}
+
+/* 
+@media (max-width:px) {}
+@media (max-width:px) {}
+@media (max-width:px) {}
+@media (max-width:px) {}
+*/

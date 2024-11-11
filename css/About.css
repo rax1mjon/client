@@ -336,3 +336,69 @@
     font-weight: 500;
     line-height: 19.2px;
 }
+
+
+@media (max-width:1270px) {
+    .about--logoipsums  {
+        gap: 30px;
+    }
+}
+
+@media (max-width:1220px) {
+    .hero--wrapper {
+        margin: 0;
+        padding-bottom: 100px;
+        width: 100%;
+    }
+    .hero--main {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .hero--video {
+        bottom: -300px;
+    }
+}
+
+@media (max-width:1020px) {
+    .jurney--wrapper {
+        flex-direction: column;
+        padding: 50px;
+    }
+}
+
+@media (max-width:800px) {
+    .hero--video {
+        bottom: -200px;
+    }
+
+    .mission--cards {
+        flex-direction: column;
+    }
+
+    .avards--list {
+        justify-content: center;
+        gap: 50px;
+        text-align: center;
+        flex-wrap: wrap;
+    }
+}
+
+
+@media (max-width:390px) {
+    .hero--title {
+        font-size: 46px;
+    line-height: 57.2px;
+    }
+    .hero--video {
+        bottom: -100px;
+    }
+
+    .awards--title {
+        font-size: 38px;
+    line-height: 47.6px;
+    }
+}
+
+/* 
+ */
