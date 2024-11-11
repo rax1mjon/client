@@ -336,19 +336,3 @@
     font-weight: 500;
     line-height: 19.2px;
 }
-
-.team--links {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-}
-
-.team--links svg {
-    opacity: 0.8;
-    fill: var(--pri-text);
-    transition: 0.5s;
-}
-
-.team--links svg:hover {
-    opacity: 1;
-}

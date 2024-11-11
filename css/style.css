@@ -610,7 +610,44 @@ footer {
     fill: var(--pri-text);
 }
 
+/* team link */
 
+.team--links {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.team--links svg {
+    opacity: 0.8;
+    fill: var(--pri-text);
+    transition: 0.5s;
+}
+
+.team--links svg:hover {
+    opacity: 1;
+}
+
+/* button */
+
+.about--link {
+    display: inline-block;
+    border-radius: 4px;
+    padding: 16px 32px;
+    background-color: var(--gree-pri);
+    color: var(--bg-white);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.75px;
+    transition: 0.5s;
+    border: 1px solid transparent;
+}
+
+.about--link:hover {
+    color: var(--pri-text);
+    background-color: var(--bg-white);
+    border: 1px solid var(--black-06);
+}
 
 /* loading  */
 
