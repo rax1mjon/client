@@ -1,6 +1,6 @@
 const loading = document.getElementById("loading");
 
-const loadingDuration = 5000;
+const loadingDuration = 4000;
 
 setTimeout(() => {
     loading.classList.add("loading-none");

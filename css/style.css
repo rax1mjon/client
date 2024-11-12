@@ -670,7 +670,7 @@ footer {
     bottom: -60%;
     right: 0;
     background-color: var(--o-border) !important;
-    z-index: -11111111;
+    z-index: 11111111;
     transform: rotate(90deg);
 }
 
