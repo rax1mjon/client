@@ -666,10 +666,10 @@ footer {
 #loading {
     position: fixed;
     transform: rotate(90deg);
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
+    top: -800%;
+    left: -800%;
+    bottom: -800%;
+    right: -800%;
     background-color: var(--o-border) !important;
     z-index: 11111111;
 }
