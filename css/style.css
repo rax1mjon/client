@@ -65,7 +65,7 @@ header {
     width: 100%;
     background-color: var(--bg-white);
     padding: 8px 0;
-    z-index: 11111111;
+    z-index: 111;
 }
 
 nav {
@@ -670,7 +670,7 @@ footer {
     bottom: -60%;
     right: 0;
     background-color: var(--o-border) !important;
-    z-index: 1111;
+    z-index: -11111111;
     transform: rotate(90deg);
 }
 

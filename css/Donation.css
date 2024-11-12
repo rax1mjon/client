@@ -15,3 +15,149 @@
     --bg-23253: #232536;
     --bg-opcty: #ebf0f94d;
 }
+
+header {
+    background-color: var(--gree-try);
+}
+
+#hero {
+    background-color: var(--gree-try);
+}
+
+.hero--wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.hero--main {
+    margin-left: 96px;
+    max-width: 628px;
+}
+
+.small__title {
+    margin-bottom: 32px;
+}
+
+.hero--title {
+    color: var(--pri-text);
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 67.2px;
+}
+
+.hero--text {
+    margin: 14px 0 32px;
+    color: var(--sec-text);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.6px;
+} 
+
+.hero--iamge {
+    max-width: 480px;
+}
+
+.hero--iamge img {
+    width: 100%;
+}
+
+/* protect */
+
+#protect {
+    background-color: var(--bg-white);
+    color: var(--sec-text);
+}
+
+.protect--wrapper {
+    display: flex;
+    align-items: center;
+    gap: 96px;
+}
+
+.protect--texts {
+    max-width: 592px;   
+}
+
+.protect--main__title {
+    margin-bottom: 24px;
+    color: var(--pri-text);
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 57.6px;
+}
+
+.protect--main__text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.6px;
+}
+
+.protect--corusel {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 592px;
+    gap: 24px;
+}
+
+.protect--corusel__list {
+    border-bottom: 1px solid var(--o-border);
+    
+}
+
+.protect--corusel__item {
+    display: inline-block;
+    padding: 8px 24px;
+    border-bottom: 2px solid transparent;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 25.6px;
+    transition: 0.5s;
+}
+
+.protect--corusel__item:hover {
+    border-bottom: 2px solid var(--gree-pri);
+}
+
+.protect--corusel__text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.6px;   
+}
+
+/* media */
+
+@media (max-width:1140px) {
+    .hero--wrapper {
+        flex-direction: column;
+    }
+    
+    .protect--wrapper {
+        flex-direction: column;
+    }
+}
+
+
+@media (max-width:440px) {
+    .hero--main {
+        margin: 0;
+    }
+    
+    .hero--title {
+        font-size: 46px;
+        line-height: 57.2px;
+    }
+    
+    .protect--main__title {
+        font-size: 38px;
+        line-height: 47.6px;
+    }
+}
+
+@media (max-width:402px) {
+    .protect--corusel__list{
+        border: none;
+    }
+}
